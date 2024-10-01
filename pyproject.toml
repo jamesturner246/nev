@@ -17,6 +17,7 @@ pytest-mypy = "^0.10.3"
 pytest-mock = "^3.14.0"
 pre-commit = "^3.8.0"
 ruff = "^0.6.8"
+djlint = "^1.35.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -53,3 +54,7 @@ pydocstyle.convention = "google"
 
 [tool.ruff.lint.per-file-ignores]
 "tests/*" = ["D100", "D104"] # Missing docstring in public module, Missing docstring in public package
+
+[tool.djlint]
+profile="django"
+indent=2
