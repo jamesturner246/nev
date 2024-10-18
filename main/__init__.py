@@ -1,1 +1,1 @@
-"""Module for the main app."""
+"""The main app."""

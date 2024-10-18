@@ -1,1 +1,1 @@
-"""Module for the nev project."""
+"""The nev project."""
